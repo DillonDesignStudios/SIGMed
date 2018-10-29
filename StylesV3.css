@@ -429,13 +429,13 @@ header {
     margin-top: 83px;
 }
 
-    .articleHeader {
-        background-image: -webkit-linear-gradient(rgb(12, 170, 220, 0.4), rgb(12, 170, 220, 0.4)), url(img/clouds1.jpg);
+.articleHeader {
+        background-image: -webkit-linear-gradient(rgb(12, 170, 220, 0.8), rgb(12, 170, 220, 0.4)), url(img/clouds1.jpg);
         padding: 20px 0;
         height: 250px;
     }
     
-    #articleText {
+#articleText {
         text-align: center;
         padding: 10px 10px;
         font-size: 176%;
@@ -443,7 +443,7 @@ header {
         font-weight: 300;
     }
     
-    .articleText {
+.articleText {
         justify-content: center;
         padding: 0 10%;
         text-align: justify;

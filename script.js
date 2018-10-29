@@ -1,6 +1,8 @@
 $(document).ready(function() {
     
-
+   $(".jsMenu").on("click", function () {
+        $(".jsNav").slideToggle();
+    });
     
    
     $('.scrollContact').click(function(){

@@ -154,7 +154,7 @@ header {
 #ribPics3,
 #ribPics2,
 #ribPics4  {
-    height: 100px;
+    height: 140px;
     padding-right: 20px;
     margin-bottom: 20px;
 }
@@ -179,6 +179,8 @@ header {
     .ribVideo {
         background-color: #f6f6f6;
         text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
     }
 
 .ribVideo h2 {
@@ -192,6 +194,12 @@ header {
 #ytplayer {
     width: 100%;
     height: 400px;
+    padding-top: 20px;
+}
+
+#vidText {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0CAADC;
 }
 
 
@@ -361,6 +369,7 @@ header {
 .ribDevice img {
     display: inline-block;
     width: 100%;
+    padding: 40px 0;
 }
 
 .future {
@@ -425,25 +434,24 @@ header {
     padding-bottom: 30px;
 }
 
-.article {
-    margin-top: 83px;
-}
 
-.articleHeader {
-        background-image: -webkit-linear-gradient(rgb(12, 170, 220, 0.8), rgb(12, 170, 220, 0.4)), url(img/clouds1.jpg);
+
+    .articleHeader {
+        background-image: -webkit-linear-gradient(rgb(12, 170, 220), rgb(12, 170, 220)), url(img/clouds1.jpg);
         padding: 20px 0;
         height: 250px;
     }
     
-#articleText {
+    #articleText {
         text-align: center;
-        padding: 10px 10px;
         font-size: 176%;
-        margin-top: 50px;
+        margin-top: 5%;
         font-weight: 300;
+        width: 94%;
+        margin-left: 3%;
     }
     
-.articleText {
+    .articleText {
         justify-content: center;
         padding: 0 10%;
         text-align: justify;
@@ -704,6 +712,49 @@ header {
   color: white;
 }
 
+.fa-envelope {
+    background: #0CAADC;
+    color: white;
+}
+
+.fa-angle-down {
+    color: #0CAADC;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/***** ARTICLE CONT READ*****/
+
+#contRead {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #0CAADC;
+}
+
+.toweVideo,
+#textHome {
+    text-decoration: none;
+    color: #0CAADC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -933,12 +984,19 @@ header {
         padding: 0px 20px;
     }
     
-    #ribPics1,
+    #ribPics1 {
+        height: 158px;
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+    
+    
     #ribPics2,
     #ribPics3,
     #ribPics4 {
-        height: 235px;
+        height: 234px;
         width: auto;
+        padding-top: 27px;
     }
     
     #text1,
@@ -1068,9 +1126,11 @@ header {
     
     
     /***** NEWS *****/
+
     
-    .article {
-        margin-top: 121px;
+    #articleText {
+        margin-top: 50px;
+        padding: 0 40px;
     }
     
 
@@ -1163,7 +1223,6 @@ header {
     }
     
 }
-
 
 
 
